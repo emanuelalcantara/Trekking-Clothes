@@ -1,0 +1,177 @@
+* {
+  font-family: "Lora", serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.demo a {
+  text-decoration: none;
+  color: orange;
+}
+
+/* need to add media to make line height 1.5 on smaller screen */
+.demo {
+  font-family: "Domine", serif;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  line-height: 0;
+  padding-top: 1rem;
+}
+
+.half-black {
+  background: rgba(0, 0, 0, 0.5);
+  max-height: 210px;
+}
+
+.bg-black {
+  background-color: rgba(14, 14, 14, 1);
+}
+
+.carousel-caption {
+  top: 360px;
+  font-family: "Times New Roman", Times, serif;
+  color: #b5a899;
+}
+
+.header-tot {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.as {
+  background-color: #000;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background-color: #a9a9a9;
+}
+
+.bg-light-grey {
+  background-color: #cdcdcd;
+}
+
+.media img {
+  max-width: 120px;
+  height: auto;
+}
+
+.underline-green {
+  width: 70px;
+  height: 2px;
+  background-color: #3cb371;
+}
+
+.underline-red {
+  width: 70px;
+  height: 2px;
+  background-color: #8b0000;
+}
+
+.underline-blue {
+  width: 70px;
+  height: 2px;
+  background-color: #00008b;
+}
+
+.card-body {
+  text-align: center;
+}
+
+/* BLOG SECTION */
+
+.blog .media img {
+  max-width: 200px;
+  height: auto;
+}
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#terms {
+  font-size: 0.75rem;
+}
+
+/*   Catalog section*/
+
+.card1 {
+  height: 55%;
+  width: 75%;
+}
+
+.underline-black {
+  width: 70px;
+  height: 2px;
+  background-color: #000;
+}
+
+.heading {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 4rem;
+}
+
+.bg-orange-light {
+  background-color: #FFA500; 
+  color: #fff; 
+}
+
+.text-uppercase-black {
+  color: #000 !important; 
+  text-transform: uppercase; 
+}
+
+.fa.fa-user-o {
+  color: orange !important; /* Cambia el color del icono "Iniciar Sesión" a naranja */
+}
+
+.orange-cart {
+  color: orange;
+  display: inline-block;
+}
+
+.orange-cart i {
+  color: orange; 
+}
+
+.col-md-2 a {
+  color: orange !important; /* Cambia el color del enlace "Iniciar Sesion" a naranja claro y usa !important para asegurarte de que prevalezca */
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.fixed-size-img {
+  width: 100%; /* Ancho del 100% para que las imágenes se ajusten al contenedor de la tarjeta */
+  height: 320px; /* Altura fija para todas las imágenes, ajusta esto según tu diseño */
+  object-fit: cover; /* Ajusta la imagen para cubrir el área designada sin cambiar su relación de aspecto */
+}
+
+.loading::after{
+  top: 0;
+}
+
+body{
+  margin: 0px;
+  transition: all .3s;
+}
+body::after{
+  content: '';
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top: -100vw;
+  left: 0;
+  background: #fff;
+  transition: all .3s;
+}

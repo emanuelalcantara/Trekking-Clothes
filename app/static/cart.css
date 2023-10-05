@@ -1,0 +1,15 @@
+.cart-info {
+    border: 0.1rem solid var(--mainBlack);
+    color: var(--mainBlack);
+    border-radius: 0.25rem;
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+  }
+  .cart-info:hover {
+    background: var(--mainPink);
+    border-color: var(--mainPink);
+    color: var(--mainWhite);
+  }
+  .cart-info:hover .cart-info__icon {
+    color: var(--mainWhite);
+  }
